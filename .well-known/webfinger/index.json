@@ -1,0 +1,25 @@
+{
+    "subject": "acct:jk@dataplatform.social",
+    "aliases": [
+        "https://dataplatform.social/@jk",
+        "https://dataplatform.social/users/jk",
+        "jk@dataplatform.social"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://dataplatform.social/@jk"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://dataplatform.social/users/jk"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://dataplatform.social/authorize_interaction?uri={uri}"
+        }
+        
+    ]
+}
